@@ -68,7 +68,7 @@ header {
   font-size: 48px;
   font-weight: 600;
 }
-.bannergoat {
+.goat {
   font-size: 95px;
   font-weight: 800;
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
@@ -79,6 +79,7 @@ header {
 .playcontainer {
   display: flex;
   gap: 12px;
+  padding: 15px;
 }
 .bannerdesc {
   color: #534c64;
@@ -104,4 +105,37 @@ header {
   padding: 21px 40px;
   border: none;
   margin-top: 40px;
+  margin-left: 20px;
+}
+
+/* gamers */
+.gamer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gamertext {
+  text-align: right;
+  padding-right: 100px;
+}
+.gamertext h1 {
+  font-size: 48px;
+  font-weight: 700;
+  /* text-align: right; */
+}
+.gamerdesc {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 25px;
+}
+.gamerdescr {
+  color: #534c64;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 25px;
+}
+.bold{
+    font-size: 32px;
+font-weight: 700; 
 }
