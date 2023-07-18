@@ -58,6 +58,7 @@ header {
 
 .banner {
   background-image: url("images/Group\ 14.png");
+  background-repeat: no-repeat;
   background-position: left top;
   display: flex;
   justify-content: space-around;
@@ -135,7 +136,87 @@ header {
   font-weight: 500;
   margin-top: 25px;
 }
-.bold{
-    font-size: 32px;
-font-weight: 700; 
+.bold {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+
+
+
+
+/* category */
+.category{
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    grid-template-columns: repeat(5,1fr);
+    padding: 150px 20px;
+    gap: 50px;
+    cursor: pointer;
+}
+.categorygames{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.categorygames:hover{
+    border-radius: 50px;
+background: #FFF;
+color: #FF42A5;
+padding: 15px 20px;
+border: 1px solid #FF42A5;
+}
+.gamename{
+    font-size: 20px;
+font-weight: 600; 
+padding-left:16px ;
+}
+
+
+
+
+/* footer */
+
+footer {
+  background: #0b0223;
+  text-align: center;
+}
+footer .logopart {
+  display: flex;
+  justify-content: center;
+  padding: 120px 0px 60px;
+}
+footer .logopart h1 {
+  color: #fff;
+}
+.footerdesc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  gap: 60px;
+}
+.sponsors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 60px 0px;
+}
+
+.footerpolicy a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0px 30px;
+}
+.copywright{
+    color: rgba(255, 255, 255, 0.60);
+font-size: 16px;
+font-weight: 500; 
+padding: 80px 0px;
 }
