@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Manrope:wght@600;700&family=Open+Sans:wght@400;700;800&family=Poppins:wght@600;700&family=Work+Sans:wght@400;500;600;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  /* font-family: "Inter", sans-serif;
+  font-family: "Manrope", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif; */
+  font-family: "Work Sans", sans-serif;
+}
+.pink {
+  color: #ff42a5;
+}
+header {
+  padding: 35px 0px;
+}
+/* navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 38px;
+}
+.navtitle {
+  color: #0b0223;
+  font-size: 45px;
+  font-weight: 700;
+}
+.logopart {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+.navlist ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+  color: #3c354f;
+  font-size: 18px;
+  font-weight: 500;
+}
+.navlist li a {
+  text-decoration: none;
+  color: #3c354f;
+}
+.navfollow {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 15px 20px;
+}
+
+/* banner section */
+
+.banner {
+  background-image: url("images/Group\ 14.png");
+  background-position: left top;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bannertitle {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 600;
+}
+.bannergoat {
+  font-size: 95px;
+  font-weight: 800;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.playcontainer {
+  display: flex;
+  gap: 12px;
+}
+.bannerdesc {
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+}
+.primarybtn {
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  padding: 21px 50px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  margin-top: 40px;
+}
+.rogue {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 48px;
+  background: #4ec5f7;
+  padding: 21px 40px;
+  border: none;
+  margin-top: 40px;
+}
