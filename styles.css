@@ -174,7 +174,9 @@ header {
   gap: 30px;
 }
 
-
+.boxcont{
+  position: relative;
+}
 .imgcontainer img{
   width: 100%;
 }
@@ -183,8 +185,8 @@ header {
   border-radius: 20px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
     position: absolute;
-    top: 1605px;
-    left: 5;
+    top: -5px;
+    /* left: 5; */
     width: 285px;
     height: 338px;
     display: flex;

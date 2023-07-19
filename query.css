@@ -40,12 +40,16 @@
   gap: 30px;
 }
 .shadow{
-  /* flex-direction: column; */
-  top: 2435px;
-  height:46% ;
-  width: 70%;
+  top: 0px;
+  width: 300px;
+  height:350px;
 }
-
+.funnyvidtitle{
+  font-size: 30px;
+}
+.funnyvidtitle span{
+  font-size: 30px;
+}
 /* online */
 .online{
   flex-direction: column;
@@ -134,6 +138,12 @@
   display: grid;
   grid-template-columns: repeat(2,1fr);
   gap: 30px;
+}
+.shadow{
+  top: 0px;
+  width: 303px;
+  height:355px;
+ 
 }
 
 /* online */
