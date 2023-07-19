@@ -52,6 +52,13 @@
     display: grid;
    grid-template-columns: repeat(3 , 1fr);
    padding: 150px 5px;
+   gap: 20px;
+  }
+  .categorygames img{
+    width:5vw;
+  }
+  .gamename{
+    font-size: 10px;
   }
   /* footer */
   footer {
