@@ -190,6 +190,7 @@ header {
     width: 285px;
     height: 338px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     visibility:hidden;
@@ -266,7 +267,6 @@ header {
   text-align: center;
   padding: 200px 20px;
   gap: 25px;
-  cursor: pointer;
 }
 .categorygames {
   display: flex;
@@ -274,6 +274,7 @@ header {
   /* justify-items: center; */
   align-items: center;
   padding: 10px 20px;
+  cursor: pointer;
   border: 1px solid transparent;
 }
 .categorygames:hover {
