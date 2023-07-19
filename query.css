@@ -33,6 +33,20 @@
     padding: 10px;
   }
 
+/* online */
+.online{
+  flex-direction: column;
+  padding: 50px 15px 40px;
+  justify-content: center;
+}
+.onlinetext{
+  padding: 60px;
+}
+.relative{
+  left: 80px;
+  top: 60px;
+}
+
   /* category */
   .category{
     display: grid;
@@ -96,6 +110,15 @@
   }
 
 
+/* online */
+.online{
+  flex-direction: column;
+  padding: 50px 15px 40px;
+  justify-content: center;
+}
+.onlinetext{
+  padding: 60px;
+}
 
    /* category */
    .category{

@@ -53,6 +53,9 @@ header {
   background: rgba(11, 2, 35, 0.1);
   padding: 15px 20px;
 }
+.followtext{
+  text-decoration: none;
+}
 
 /* banner section */
 
@@ -96,6 +99,7 @@ header {
   font-weight: 600;
   border: none;
   margin-top: 40px;
+  cursor: pointer;
 }
 .rogue {
   color: #fff;
@@ -107,6 +111,7 @@ header {
   border: none;
   margin-top: 40px;
   margin-left: 20px;
+  cursor: pointer;
 }
 
 /* gamers */
@@ -179,9 +184,8 @@ header {
 /* online */
 .online {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  /* padding:5% 0%; */
 }
 .onlinetext {
   text-align: center;
@@ -203,9 +207,21 @@ header {
   padding: 30px;
   /* text-align: justify; */
 }
+.rdr {
+  width: 60%;
+}
+.relative{
+  width: 30%;
+  position: relative;
+  left: 155px;
+  top: 100px;
+}
+
 
 /* category */
 .category {
+  /* display: flex;
+  flex-wrap:wrap ; */
   display: grid;
   justify-items: center;
   align-content: center;
@@ -217,17 +233,19 @@ header {
 .categorygames {
   display: flex;
   justify-content: center;
+  /* justify-items: center; */
   align-items: center;
+  padding: 10px 20px;
+  border: 1px solid transparent;
 }
 .categorygames:hover {
   border-radius: 50px;
   background: #fff;
   color: #ff42a5;
-  padding: 15px 20px;
-  border: 1px solid #ff42a5;
+   border-color: #ff42a5;
 }
 .gamename {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 600;
   padding-left: 16px;
 }
